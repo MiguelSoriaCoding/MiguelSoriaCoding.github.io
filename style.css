@@ -1,0 +1,290 @@
+html, body {
+      cursor: url(cursor.png), auto !important;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      font-family: "Helvetica";
+      background: black;
+      overflow: hidden;
+      
+}
+
+
+
+.menu-btn {
+      position: fixed;
+      margin: 1em;
+      font-size: 24px;
+      color: #16efff;
+}
+.contact-bg {
+      background:black;
+      }
+      
+.menu {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      background: #121212;
+      opacity: 0;
+}
+
+.close-menu {
+      position: fixed;
+      margin: 1em;
+      font-size: 24px;
+      color: #fff;
+      z-index: 1;
+}
+
+.nav {
+      position: absolute;
+      left: -2%;
+      margin-top: 8%;
+      
+}
+
+.nav ul {
+      list-style: none;
+}
+
+.main-menu-item {
+      padding-top: 26px;
+      color: #16efff;
+}
+
+.main-menu-item a {
+      text-decoration: none;
+      color: #16efff;
+      font-weight: lighter;
+}
+
+.submenu-item a {
+      color: #16efff;
+}
+
+.submenu li {
+      margin: 20px 0;
+}
+
+a ion-icon {
+      position: relative;
+      color: #16efff;
+      font-size: 20px;
+
+}
+a h2 {
+      color: red;
+    }
+
+.submenu {
+      display: none;
+}
+
+.contact {
+      color: #16efff;
+      position: absolute;
+      bottom: 70px;
+      right: 24%;
+}
+
+.contact p {
+      font-weight: lighter;
+      color: #16efff;
+      font-family: "Helvetica";
+}
+
+
+
+@media(max-width: 768px) {
+      h1 {
+            font-size: 20px;
+      }
+
+      .nav {
+            margin-top: 20%;
+      }
+
+      .contact {
+            display: none;
+      }
+}
+
+/*
+*/
+
+.bottom-text {
+      
+      position: absolute;
+      z-index: 1;
+      color: #16efff;
+      font-size: 18px;
+      font-family: monospace;
+      margin-left: .1em;
+      bottom: 1px;
+}
+.bottom-text ul li {
+      padding: 12px 0;
+      display: inline-block !important;
+}
+
+/*
+*/
+
+
+
+
+/*
+*/
+.ring {
+     
+      
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -100px;
+      margin-left: -100px;
+}
+
+.ringOne img {
+      animation: rotateFirstRing .1s linear infinite;
+      
+}
+.ringTwo {
+      margin: 0%;
+      padding: 0%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      z-index: 2;
+      width: 80%;
+      opacity: 0.7;    
+}
+
+.ringTwo img {
+      animation: rotateFirstRing 10s linear infinite;
+}
+
+@keyframes rotateFirstRing {
+      from {
+            transform: rotate(0deg);
+      }
+      to {
+            transform: rotate(360deg);
+      }
+}
+
+/*
+*/
+.header {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+}
+.headerTwo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+}
+.headerAbout {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+}
+.headerAboutTwo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+}
+.headerProjects {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+}
+.headerContact {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+}
+.headerContactTwo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+}
+
+h1 {
+      color: rgb(255, 255, 255);
+      font-family: "Roboto";
+      font-weight: bolder !important;
+      font-size: 46px !important;
+      margin-bottom: 0px;
+      text-transform: uppercase !important;
+}
+h1 span {
+      
+      color:#16efff;
+}
+h2 {
+      color: rgb(255, 255, 255);
+      font-family: "Roboto";
+      font-weight: bolder !important;
+      font-size: 46px !important;
+      margin-bottom: 0px;
+      text-transform: uppercase !important;
+      
+      
+}
+h2 span {
+      color:#16efff;
+}
+h3 {
+      color: rgb(255, 255, 255);
+      font-family: "Roboto";
+      font-weight: bolder !important;
+      font-size: 20px !important;
+      margin-bottom: 0px;
+      text-transform: uppercase !important;
+}
+
+
+h5  {
+     
+      color: rgb(255, 255, 255);
+      font-family: "Roboto";
+      font-size: 20px;
+      letter-spacing: 3px;
+}
+
+h4 {
+      color: rgb(255, 255, 255);
+      font-family: "Roboto";
+      font-weight: bolder !important;
+      font-size: 20px !important;
+      margin-bottom: 0px;
+     
+}
+h4 span {
+      
+      font-family: "Roboto";
+      font-weight: bolder !important;
+      font-size: 20px !important;
+      margin-bottom: 0px;
+      color:#16efff;
+}
